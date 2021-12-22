@@ -1,11 +1,9 @@
-@media(max-width: 767px)
-{
-
-}
 body
 {
     margin: 0%;
-    font-family: "proxima-nova", sans-serif
+    font-family: "proxima-nova", sans-serif;
+    width: auto;
+
 }
 header
 {
@@ -185,10 +183,7 @@ button
     margin-top: 35px;
     width: 20%;
     padding-top: 15px;
-    padding-bottom: 15px;
-    padding-top: -25px;
 }
-
 .flexible
 {
     display: flex;
@@ -196,10 +191,7 @@ button
     justify-content: space-between;
     line-height: 1.6rem;
 }
-.espace
-{
-    padding-right: 30px;
-}
+
 .noir
 {
     background-color: #333333;
@@ -216,8 +208,12 @@ button
 footer
 {
     font: 300 16px/120% "proxima-nova", sans-serif;
-    padding-top: 30px;
+    padding: 30px;
     background-color: #404040
+}
+footer ul
+{
+    padding-left: 0;
 }
 footer,li 
 {
@@ -261,6 +257,57 @@ a.btn
     margin-right: 5px;
     margin-top: 10px;
     padding: 1px 25px;
+}
+.icon
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 767px){
+    nav img
+    {
+        margin-top: 0;
+    }
+
+    #container 
+    {
+        flex-direction: column;
+    }
+    .forme
+    { 
+        width: auto;
+    }
+    section 
+    {
+        width: auto;
+        text-align: center;
+    }
+    #container section
+    {
+        width: auto;
+        max-width: 100%;
+    }
+    .flexible
+    {
+        width: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+    footer 
+    {
+        width: auto;
+    }
+    footer ul, footer div
+    {
+        width:300px;
+        margin:auto
+    }
+
 }
 
 
