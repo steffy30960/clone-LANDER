@@ -1,0 +1,266 @@
+@media(max-width: 767px)
+{
+
+}
+body
+{
+    margin: 0%;
+    font-family: "proxima-nova", sans-serif
+}
+header
+{
+    background-color: #f38e59;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav img
+{
+    padding-left: 10px;
+    margin-top: -25px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header li
+{
+    padding: 20px;
+}
+.hidden
+{
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+}
+main
+{
+    max-width: 100%;
+    justify-content: center;
+}
+nav a
+{
+color: white;
+margin-top:  45px; ;
+text-decoration: none;
+margin-top: 0px;
+}
+.forme
+{ 
+    background-color: #f38e59;
+    width: 100%;
+}
+h1
+{
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 200px;
+}
+h2
+{
+    text-align: center;
+    color: #333333;
+    font-size: 19px;
+    padding-bottom: 40px;
+}
+p
+{
+    font-size: 16px;
+    color: #333333;
+    line-height: 140%
+}
+.bouton
+{
+    background-color: rgb(2, 32, 47);
+    color: white;
+    border-radius: 5px 5px;
+    height: 50px;
+    width: 200px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 10px 26px;
+}
+.bouton_1
+{
+    background-color: #f38e59;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px 5px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 8px 24px;
+}
+section h2
+{
+    color: #5BB5DE;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 1.2em;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+#container section {
+    max-width:50%;
+    padding: 20px;
+    padding-top: 5px;
+}
+h3
+{
+    font-size: 28px;
+    color: #333333;
+    padding-top: 30px;
+    font-weight: 400
+}
+.reseau
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+div.reseau
+{
+    padding-top: 10px;
+}
+.texte
+{
+    font-size: 19px;
+    margin: 2px;
+}
+p a
+{
+    color: #f38e59;
+}
+form
+{
+    display: flex; 
+    flex-direction: column;
+}
+input
+{
+    color: #7F8C97;
+    border-radius: 5px 5px;
+    border: 1px solid #C0C6CC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.message
+{
+    padding-bottom: 150px;
+}
+.droite
+{
+    text-align: right;
+}
+button
+{
+    background-color: #F49B6C;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px 5px;
+    border: none;
+    margin-top: 35px;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-top: -25px;
+}
+
+.flexible
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 1.6rem;
+}
+.espace
+{
+    padding-right: 30px;
+}
+.noir
+{
+    background-color: #333333;
+    color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 10px 10px 20px;
+}
+.couleur
+{
+    color: #F49B6C;
+}
+footer
+{
+    font: 300 16px/120% "proxima-nova", sans-serif;
+    padding-top: 30px;
+    background-color: #404040
+}
+footer,li 
+{
+    list-style: none;
+}
+footer,ul, li, a /*couleur lien */
+{
+    text-decoration: none;
+}
+footer,ul,li
+{
+    color: white;
+}
+.place
+{
+    line-height: 3em;
+}
+.blanc
+{
+    color: white;
+}
+footer li a
+{
+    color:rgba(255, 255, 255, 0.6)
+}
+.create
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+a.btn 
+{
+    background-color: rgb(2, 32, 47);
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px;
+    min-height: 20px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 1px 25px;
+}
+
+
